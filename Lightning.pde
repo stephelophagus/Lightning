@@ -7,13 +7,12 @@ PImage img;
 void setup() {
   size(500, 500);
   img = loadImage("98973-nyan-cat-hd-image-free.png");
-
+  image(img, 220, 130, width / 2, height / 2);
   strokeWeight(5);
   background(#121934);
 }
 
 void draw() {
-  image(img, 220, 130, width / 2, height / 2);
   fill(0,20);
   noStroke();
   rect(0,0, width, height);
