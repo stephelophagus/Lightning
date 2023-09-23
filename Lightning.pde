@@ -13,11 +13,11 @@ void setup() {
 }
 
 void draw() {
-  image(img, 220, 130, width / 2, height / 2);
+
   fill(0,20);
   noStroke();
   rect(0,0, width, height);
-  
+  image(img, 220, 130, width / 2, height / 2);
   stroke((int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256));
   
   while (endX >= 0) {
