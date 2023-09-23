@@ -1,3 +1,3 @@
-git add images/image.png
-git commit -m "Add image.png"
+git add images/98973-nyan-cat-hd-image-free.png
+git commit -m "98973-nyan-cat-hd-image-free.png"
 git push origin main
