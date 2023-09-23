@@ -7,10 +7,7 @@ PImage img;
 void setup() {
   size(500, 500);
   img = loadImage("98973-nyan-cat-hd-image-free.png");
-  //startX = 220; // Initial starting position
-  //startY = 130; // Adjusted for the image's position
- // endX = startX;
-  //endY = startY;
+
   strokeWeight(5);
   background(#121934);
 }
