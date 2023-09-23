@@ -35,7 +35,6 @@ void draw() {
 }
 
 void mousePressed() {
-  // Reset the starting coordinates to the left edge of the image
   startX = 270;
   startY = 250;
   endX = startX;
